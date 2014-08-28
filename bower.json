@@ -44,6 +44,6 @@
     "jquery": ">=1.7.0"
   },
   "devDependencies": {
-    "qunit": "~1.14.0"
+    "qunit": ">=1.14.0"
   }
 }

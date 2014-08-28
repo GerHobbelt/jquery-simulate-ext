@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 				' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %>\n' +
 				' */'
 		},
-		
+
 		jshint: {
 			options: {
 				"-W106": true, // Ignore warning "Identifier 'ext_disableQuirkDetection' is not in camel case."
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 		},
 		
 		qunit: {
-			files: ['tests/tests.html']
+		    files: 'tests/index.html'
 		},
 		
 		concat: {
